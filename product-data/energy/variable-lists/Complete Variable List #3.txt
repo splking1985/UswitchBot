@@ -1,0 +1,260 @@
+Your current supply
+Give us your details and we'll use a comparison to check your current tariff. 
+			# Postcode (postcode)
+				-[Text]
+			# House number or name (house_no)
+				-[Text]
+			# Do you rent your home? (rent)
+				- Yes
+				- No
+			# What type of energy do you have? (plan_type)
+				- Gas & Electricity
+						# Are you on a dual fuel tariff? (ge_dual)
+							- Yes
+							- No
+						# How do you currently pay for your energy? (ge_payment)
+							- Monthly Direct Debit 
+							- Monthly Cash or Cheque 
+							- Quarterly Direct Debit 
+							- Quarterly Cash or Cheque 
+							- Prepayment Meter
+						# Do you have an Economy 7 meter? (ge_economy_seven_meter)
+							- Yes
+									# What is your economy 7 usage? (ge_economy_seven_usage)
+										- 0% 
+										- 5% 
+										- 10% 
+										- 15% 
+										- 20% 
+									- 25% 
+										- 30% 
+										- 35% 
+										- 40% 
+										- 45% 
+										- 50% 
+										- 55% (National Average) 
+										- 60% 
+										- 65% 
+										- 70% 
+										- 75% 
+										- 80% 
+										- 85% 
+										- 90% 
+										- 95% 
+							- No
+						Your usage
+						# Do you know how much energy you use? (ge_usage)
+							- Yes, I know how much I use in kWh
+									# How much gas do you use? (ge_gas_usage)
+											- [Num] kWh every 
+													- Month 
+													- Quarter 
+													- Year 
+													- Week
+									# How much electricity do you use? (ge_electricity_usage)
+											- [Num] kWh every 
+													- Month 
+													- Quarter 
+													- Year 
+													- Week
+							- Yes, I know how much I spend
+									# How much do you spend on gas? (ge_gas_spend)
+											- I spend £ [Num] every
+													- Month 
+													- Quarter 
+													- Year 
+													- Week
+									# How much do you spend on electricity? (ge_electricity_spend)
+											- I spend £ [Num] every
+													- Month 
+													- Quarter 
+													- Year 
+													- Week
+
+							- Don't know (we'll estimate it for you)
+									# What type of home do you have? (ge_home_type)
+											- House
+												# What type of house is it? (ge_house_type)
+													- Bungalow 
+													- Detached 
+													- Semi-detached 
+													- End-terrace 
+													- Mid-terrace
+											- Flat
+												# What type of flat is it? (ge_flat_type)
+													- Ground floor 
+													- Mid-floor 
+													- Top floor
+									# When was it built? (ge_home_built)
+											- Before 1945 
+											- 1945-1975 
+											- 1976-1995 
+											- 1996-2002 
+											- After 2002 
+											- Not sure
+									# How many bedrooms does it have? (ge_num_bedrooms)
+											- 1 
+											- 2 
+											- 3 
+											- 4 
+											- 5+
+									# How many adults live there? (ge_num_adults)
+											- 1 
+											- 2 
+											- 3 
+											- 4 
+											- 5+
+									# When do you use the most energy? (ge_most_enrgy)
+											- Daytimes and evenings 
+											- Evenings and weekends 
+											- Not often
+				- Gas Only
+						Your usage
+						# Do you know how much energy you use? (g_usage)
+							- Yes, I know how much I use in kWh
+									# How much gas do you use? (g_gas_usage)
+											- [Num] kWh every 
+													- Month 
+													- Quarter 
+													- Year 
+													- Week
+							- Yes, I know how much I spend
+									# How much do you spend on gas? (g_gas_spend)
+											- I spend £ [Num] every
+													- Month 
+													- Quarter 
+													- Year 
+													- Week
+							- Don't know (we'll estimate it for you)
+									# What type of home do you have? (g_home_type)
+											- House
+												# What type of house is it? (g_house_type)
+													- Bungalow 
+													- Detached 
+													- Semi-detached 
+													- End-terrace 
+													- Mid-terrace
+											- Flat
+												# What type of flat is it? (g_flat_type)
+													- Ground floor 
+													- Mid-floor 
+													- Top floor
+									# When was it built? (g_home_built)
+											- Before 1945 
+											- 1945-1975 
+											- 1976-1995 
+											- 1996-2002 
+											- After 2002 
+											- Not sure
+									# How many bedrooms does it have? (g_num_bedrooms)
+											- 1 
+											- 2 
+											- 3 
+											- 4 
+											- 5+
+									# How many adults live there? (g_num_adults)
+											- 1 
+											- 2 
+											- 3 
+											- 4 
+											- 5+
+									# When do you use the most energy? (g_most_enrgy)
+											- Daytimes and evenings 
+											- Evenings and weekends 
+											- Not often
+				- Electricity Only
+						Your usage
+						# Do you know how much energy you use? (e_usage)
+							- Yes, I know how much I use in kWh
+									# How much electricity do you use? (e_electricity_usage)
+											- [Num] kWh every 
+													- Month 
+													- Quarter 
+													- Year 
+													- Week
+							- Yes, I know how much I spend
+									# How much do you spend on electricity? (e_electricity_spend)
+											- I spend £ [Num] every
+													- Month 
+													- Quarter 
+													- Year 
+													- Week
+
+							- Don't know (we'll estimate it for you)
+									# What type of home do you have? (e_home_type)
+											- House
+												# What type of house is it? (e_house_type)
+													- Bungalow 
+													- Detached 
+													- Semi-detached 
+													- End-terrace 
+													- Mid-terrace
+											- Flat
+												# What type of flat is it? (e_flat_type)
+													- Ground floor 
+													- Mid-floor 
+													- Top floor
+									# Is there a gas supply to your house? (e_gas_supply)
+											- Yes
+											- No
+												# Do you use electricity to heat your home? (e_electricity_heat)
+														- Yes
+														- No
+									# When was it built? (e_home_built)
+											- Before 1945 
+											- 1945-1975 
+											- 1976-1995 
+											- 1996-2002 
+											- After 2002 
+											- Not sure
+									# How many bedrooms does it have? (e_num_bedrooms)
+											- 1 
+											- 2 
+											- 3 
+											- 4 
+											- 5+
+									# How many adults live there? (e_num_adults)
+											- 1 
+											- 2 
+											- 3 
+											- 4 
+											- 5+
+									# When do you use the most energy? (e_most_enrgy)
+											- Daytimes and evenings 
+											- Evenings and weekends 
+											- Not often
+
+						Your results
+						# How would you like to pay for your energy? (energy_payment)
+											- Monthly Direct Debit 
+											- Monthly Cash or Cheque 
+											- Quarterly Direct Debit 
+											- Quarterly Cash or Cheque 
+											- Prepayment Meter
+						Now let's keep you on a cheap deal constantly...
+						# When do you want us to alert you in future? (alert_future)
+											- When I can make any saving! 
+											- When I can save £25 per year 
+											- When I can save £50 per year 
+											- When I can save £75 per year 
+											- When I can save £100 per year 
+											- When I can save £125 per year 
+											- When I can save £150 per year 
+											- When I can save £200 per year 
+											- When I can save £250 per year
+						Tell us your details
+						We'll use these to set up your Cheap Energy Club account and make sure you're always on a cheap deal.
+						# First name (first_name)
+											- [Text]
+						# Surname (surname)
+											- [Text]
+						# Email address (email_address)
+											- [Text]
+						# Confirm your email address (confirm_email)
+											- [Text]
+						# Email your alerts to someone else as well (optional) (email_alerts)
+											- [Text]
+						# Choose a password (password)
+											- [Text]
+						# Confirm your password (confirm_password)
+											- [Text]

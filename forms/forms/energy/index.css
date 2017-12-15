@@ -1,0 +1,121 @@
+input[type='checkbox'] {
+    width: 15px !important;
+    height: 15px !important;
+    margin-left: 10px !important;
+}
+
+#jsonSubmit {
+    float: right;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.sameline {
+    margin-top: 13px !important;
+    width: 100% !important;
+    display: inline-block;
+}
+
+.sameline>.toggle {
+    float: right !important;
+}
+
+.sameline>label {
+    margin-top: 5px !important;
+}
+
+.sameline>button {
+    float: right !important;
+}
+
+.hidden {
+    display: none;
+}
+
+#gasOnly,
+#electricityOnly,
+#ge_spend_div,
+#ge_dont_know_div,
+#g_spend_div,
+#g_dont_know_div,
+#e_spend_div,
+#e_dont_know_div,
+#ge_flat,
+#g_flat,
+#e_flat {
+    display: none;
+}
+
+#postcode,
+#rent,
+#ge_dual,
+#endson,
+#startedon,
+#ge_economy_seven_meter,
+input[type='number'] {
+    width: 100px;
+}
+
+.grp {
+    position: relative;
+}
+
+.spn {
+    margin-top: 6px !important;
+}
+
+.period {
+    width: 120px;
+}
+
+.spn,
+input,
+.period {
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#ge_payment,
+#ge_economy_seven_usage {
+    width: 220px;
+}
+
+#ge_home_type,
+#g_home_type,
+#e_home_type,
+#ge_num_bedrooms,
+#g_num_bedrooms,
+#e_num_bedrooms,
+#ge_num_adults,
+#g_num_adults,
+#e_num_adults,
+#e_gas_supply,
+#e_electricity_heat {
+    width: 100px;
+}
+
+#ge_house_type,
+#g_house_type,
+#e_house_type,
+#ge_flat_type,
+#g_flat_type,
+#e_flat_type,
+#ge_home_built,
+#g_home_built,
+#e_home_built {
+    width: 150px;
+}
+
+#ge_most_enrgy,
+#g_most_enrgy,
+#e_most_enrgy,
+#ge_usage,
+#g_usage,
+#e_usage,
+#energy_payment,
+#alert_future {
+    width: 280px;
+}

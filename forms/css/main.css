@@ -1,0 +1,72 @@
+/* Super */
+	body {
+		margin: 0px;
+		padding: 0px;
+		font-family: Arial, sans-serif;
+		color: #222;
+	}
+	#main { padding: 0px 25px; }
+
+/* General */
+	a, a:hover, a:active { color: #1A55FF; text-decoration: none; cursor: pointer; }
+	h1, h2, h3 { font-weight: normal; }
+	hr { border: none;  border-top: 1px solid #DDD; width: 75%; margin: 10px auto; }
+	.title { text-align: center; }
+	.hidden { display: none; }
+	.center { text-align: center; }
+	.flex-break { width: 100%; }
+	/* Buttons */
+		input[type="button"], input[type="submit"], .tab_container > span {
+			padding: 10px 25px;
+			border: none;
+			border-radius: 7px;
+			background-color: #555;
+			color: #FFF;
+			font-family: Verdana, Arial, sans-serif;
+			font-size: 15px;
+			cursor: pointer;
+			transition: 0.25s ease-in-out;
+		}
+		input[type="button"].small_btn { padding: 5px 10px; }
+		input[type="button"]:hover, input[type="submit"]:hover, .tab_container > span:hover { background-color: #333; }
+		input[type="button"]:disabled, input[type="submit"]:disabled, .tab_container > span[data-disabled="true"] {
+			background-color: #555;
+			opacity: 0.5; 
+			cursor: not-allowed;
+		}
+		input[type="button"][disabled]:hover, input[type="submit"][disabled]:hover, .tab_container > span[data-disabled="true"] { background-color: #555; }
+		/* Fun Buttons */
+			input.fun-button {
+				padding: 10px;
+				border-radius: 10000px;
+			}
+		/* Green Buttons */
+			input.green-button, .btn-success				{ background-color: #00AA00; }
+			input.green-button:hover, .btn-success:hover	{ background-color: #008000; }
+		/* Red Buttons */
+			input.red-button, .btn-danger				{ background-color: #FF0000; }
+			input.red-button:hover, .btn-danger:hover	{ background-color: #CC0000; }
+		/* Tabs */
+			.tab_container > span {
+				display: inline-block;
+				border-bottom-left-radius: 0px;
+				border-bottom-right-radius: 0px;
+			}
+	/* Tooltips */
+		*[tooltip]     { display: inline-block; }
+		*[tooltip] > * { position: relative;    }
+		*[tooltip]:before {
+			content: attr(tooltip);
+			position: absolute;
+			margin-top: -50px;
+			padding: 10px 25px;
+			border: 1px solid #DDD;
+			border-radius: 3px;
+			background-color: #FFF;
+			box-shadow: 1px 1px 3px 0px #999;
+			z-index: 999;
+			opacity: 0;
+			pointer-events: none;
+			transition: 0.25s ease-in-out;
+		}
+		*[tooltip]:hover:before { opacity: 1; }
